@@ -16,7 +16,7 @@ const BackgroundImg = ({img, heading, text}) => {
             <p className="mt-4 bg-gradient-to-r from-white to-yellow-500 text-transparent bg-clip-text">
               {text}
             </p>
-            <button onClick={handleBtn} className="mt-4 px-6 py-2 cursor-pointer bg-yellow-600 text-black font-semibold rounded-lg transition-all duration-300 hover:scale-110">
+            <button onClick={handleBtn} className="mt-4 px-6 py-2 cursor-pointer bg-yellow-500 text-black font-semibold rounded-lg transition-all duration-300 hover:scale-110">
             Know More
             </button>
         </div>

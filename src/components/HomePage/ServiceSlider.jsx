@@ -28,7 +28,7 @@ export default function ServicesSlider() {
   const timerRef = useRef(null);
 
   const handleBtn = ()=>{
-    navigate('/contact');
+    navigate('/services');
   }
 
   const resetTimer = () => {
