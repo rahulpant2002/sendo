@@ -10,10 +10,10 @@ const Contact = () => {
 
         <ContactForm/>
 
-        <div className="flex flex-col justify-center items my-5">
+        {/* <div className="flex flex-col justify-center items my-5">
           <h2 className="bg-yellow-500 mx-auto text-3xl font-bold rounded-2xl px-2 my-5">Sendo Distribution Model</h2>
           <img src={flowChart} alt="img" />
-        </div>
+        </div> */}
 
     </div>
   )
