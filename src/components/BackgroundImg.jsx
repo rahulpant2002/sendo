@@ -1,12 +1,18 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const BackgroundImg = ({img, heading, text}) => {
+const BackgroundImg = ({img, heading, text, scrollTo}) => {
   const navigate = useNavigate();
 
-  const handleBtn = ()=>{
-    navigate('/contact');
+  const handleBtn = () => {
+    if (scrollTo) {
+      const section = document.getElementById(scrollTo); // Target the section dynamically
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    }
   }
+
   return (
     <div className="w-screen h-full relative">
         <img src={img} alt="bgImg" className="w-full h-[70vh] object-cover opacity-65" />

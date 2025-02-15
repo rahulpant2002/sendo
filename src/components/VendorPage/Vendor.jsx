@@ -10,9 +10,11 @@ const Vendor = () => {
   const text = "Partner with Sendo Logistics to unlock all-in-one solutions and exclusive benefits, including higher earnings, professional training, insurance, digitization, medical checkups, and peace of mind—empowering you every step of the way.";
   return (
     <div>
-      <BackgroundImg img={img8} heading={heading} text={text} />
+      <BackgroundImg img={img8} heading={heading} text={text} scrollTo="benefits" />
       <WhyPartner/>
-      <Benefits/> 
+      <div id='benefits'>
+        <Benefits/> 
+      </div>
       <VendorPartnership/>
     </div>
   )
