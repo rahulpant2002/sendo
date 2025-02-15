@@ -1,8 +1,6 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
 
 const BackgroundImg = ({img, heading, text, scrollTo}) => {
-  const navigate = useNavigate();
 
   const handleBtn = () => {
     if (scrollTo) {

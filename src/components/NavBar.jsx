@@ -47,7 +47,7 @@ const NavBar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-black opacity-95 absolute w-full left-0 shadow-lg">
-          <div className="flex flex-col text-center">
+          <div className="flex flex-col text-center text-white">
             <NavLinkMobile to="/" setIsOpen={setIsOpen}>Home</NavLinkMobile>
             <NavLinkMobile to="/about" setIsOpen={setIsOpen}>About Us</NavLinkMobile>
             <NavLinkMobile to="/services" setIsOpen={setIsOpen}>Our Services</NavLinkMobile>
