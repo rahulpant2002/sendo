@@ -83,7 +83,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <p className='text-center text-black p-2 bg-white'>Copyright © {new Date().getFullYear()} - All right reserved by Lavakumar.N</p>
+      <p className='text-center text-black font-semibold p-2 bg-white'>Copyright © {new Date().getFullYear()} - All right reserved by Lavakumar.N</p>
     </div>
   );
 };

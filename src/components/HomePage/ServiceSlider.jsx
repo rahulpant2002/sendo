@@ -63,7 +63,7 @@ export default function ServicesSlider() {
       </button>
 
       <div className="relative w-full max-w-5xl flex overflow-hidden">
-        <button className="absolute left-2 top-1/2 transform -translate-y-1/2 z-10 bg-black text-white p-2 rounded-full shadow-lg cursor-pointer" onClick={prevSlide}>
+        <button className="absolute left-2 top-1/2 transform -translate-y-1/2 z-10 bg-black p-2 rounded-full shadow-lg cursor-pointer" onClick={prevSlide}>
           <FaArrowLeft />
         </button>
 
@@ -74,13 +74,13 @@ export default function ServicesSlider() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <div className="bg-yellow-500 text-black p-6 rounded-lg shadow-lg w-full max-w-sm text-center">
+          <div className="bg-yellow-500 text-white p-6 rounded-lg shadow-lg w-full max-w-sm text-center">
             <h3 className="text-lg font-semibold mb-2">{slides[currentSlide].title}</h3>
             <p className="text-sm">{slides[currentSlide].description}</p>
           </div>
         </motion.div>
 
-        <button className="absolute right-2 top-1/2 transform -translate-y-1/2 z-10 bg-black text-white p-2 rounded-full shadow-lg cursor-pointer" onClick={nextSlide}>
+        <button className="absolute right-2 top-1/2 transform -translate-y-1/2 z-10 bg-black p-2 rounded-full shadow-lg cursor-pointer" onClick={nextSlide}>
           <FaArrowRight />
         </button>
       </div>
