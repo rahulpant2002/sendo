@@ -1,6 +1,7 @@
 import img1 from "../../Images/img1.jpg"
 import BackgroundImg from "../BackgroundImg";
 import ContactSection from "../ContactSection";
+import Founders from "./Founders";
 import Industries from "./Industries";
 import VisionMission from "./VisionMission";
 
@@ -11,6 +12,7 @@ const About = () => {
     <div>
         <BackgroundImg img={img1} heading={heading} text={text} scrollTo="industries"/>;
         <VisionMission/>
+        <Founders/>
         <div id="industries">
           <Industries/>
         </div>
