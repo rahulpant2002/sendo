@@ -80,7 +80,7 @@ export default function ServicesSlider() {
           </div>
         </motion.div>
 
-        <button className="absolute right-2 top-1/2 transform -translate-y-1/2 z-10 bg-black p-2 rounded-full shadow-lg cursor-pointer" onClick={nextSlide}>
+        <button className="absolute right-2 top-1/2 transform -translate-y-1/2 z-10 bg-black text-white p-2 rounded-full shadow-lg cursor-pointer" onClick={nextSlide}>
           <FaArrowRight />
         </button>
       </div>
