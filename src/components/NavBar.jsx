@@ -15,12 +15,14 @@ const NavBar = () => {
 
   return (
     <nav className="bg-white shadow-lg fixed w-full z-10">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16 items-center">
+      <div className="max-w-7xl pr-4 ">
+        <div className="flex justify-between h-16 items-center ">
           {/* Logo */}
-          <Link to="/" className="text-xl font-bold text-white flex items-center h-40 w-40">
-            <img src={logo} alt="logo" />
-          </Link>
+          <div className="ml-0 pl-0">
+            <Link to="/" className="text-xl font-bold text-white flex items-center h-40 w-40">
+              <img src={logo} alt="logo" />
+            </Link>
+          </div>
 
           {/* Mobile Menu Button */}
           <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-black focus:outline-none">

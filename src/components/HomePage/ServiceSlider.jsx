@@ -63,7 +63,7 @@ export default function ServicesSlider() {
       </button>
 
       <div className="relative w-full max-w-5xl flex overflow-hidden">
-        <button className="absolute left-2 top-1/2 transform -translate-y-1/2 z-10 bg-black p-2 rounded-full shadow-lg cursor-pointer" onClick={prevSlide}>
+        <button className="absolute left-2 top-1/2 transform -translate-y-1/2 z-10 bg-black text-white p-2 rounded-full shadow-lg cursor-pointer" onClick={prevSlide}>
           <FaArrowLeft />
         </button>
 
