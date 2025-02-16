@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <LogoFooter/>
-      <footer className="bg-black text-white py-10 px-6 font-serif">
+      <footer className="bg-black text-white py-10 px-6 ">
         <div className="max-w-7xl mx-auto text-center md:text-left">
           <div className="flex flex-col md:flex-row md:justify-between">
 

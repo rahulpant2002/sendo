@@ -8,42 +8,45 @@ import director2 from "../../Images/director2.png";
 
 const Founders = () => {
   return (
-   <div className="flex flex-wrap justify-center gap-6 text-black w-full px-4">
-  {/* CEO */}
-  <div className="flex flex-col items-center w-full sm:w-1/2 md:w-1/3 lg:w-1/5 text-center">
-    <img src={ceo} alt="ceoImg" className="h-32 w-32 object-cover rounded-full" />
-    <p className="font-semibold mt-2">LAVAKUMAR.N</p>
-    <p className="text-sm text-gray-600">CEO & Founder</p>
-  </div>
+    <div>
+        <div className='text-center font-bold text-black text-3xl my-3'>Meet Our Team</div>
+        <div className="flex flex-wrap justify-center  text-black w-full px-4">
+        {/* CEO */}
+        <div className="flex flex-col items-center w-full sm:w-1/2 md:w-1/3 lg:w-1/5 text-center">
+            <img src={ceo} alt="ceoImg" className="h-32 w-32 object-cover rounded-full" />
+            <p className="font-semibold mt-2">LAVAKUMAR.N</p>
+            <p className="text-sm text-gray-600">CEO & Founder</p>
+        </div>
 
-  {/* Director 2 */}
-  <div className="flex flex-col items-center w-full sm:w-1/2 md:w-1/3 lg:w-1/5 text-center">
-    <img src={director2} alt="dir2Img" className="h-32 w-32 object-cover rounded-full" />
-    <p className="font-semibold mt-2">MANJUNATH.N</p>
-    <p className="text-sm text-gray-600">Director</p>
-  </div>
+        {/* Director 2 */}
+        <div className="flex flex-col items-center w-full sm:w-1/2 md:w-1/3 lg:w-1/5 text-center">
+            <img src={director2} alt="dir2Img" className="h-32 w-32 object-cover rounded-full" />
+            <p className="font-semibold mt-2">MANJUNATH.N</p>
+            <p className="text-sm text-gray-600">Director</p>
+        </div>
 
-  {/* Director 1 */}
-  <div className="flex flex-col items-center w-full sm:w-1/2 md:w-1/3 lg:w-1/5 text-center">
-    <img src={director1} alt="dir1Img" className="h-32 w-32 object-cover rounded-full" />
-    <p className="font-semibold mt-2">MALLIKARJUNA.B PAMOJI</p>
-    <p className="text-sm text-gray-600">Director</p>
-  </div>
+        {/* Director 1 */}
+        <div className="flex flex-col items-center w-full sm:w-1/2 md:w-1/3 lg:w-1/5 text-center">
+            <img src={director1} alt="dir1Img" className="h-32 w-32 object-cover rounded-full" />
+            <p className="font-semibold mt-2">MALLIKARJUNA.B PAMOJI</p>
+            <p className="text-sm text-gray-600">Director</p>
+        </div>
 
-  {/* CAO */}
-  <div className="flex flex-col items-center w-full sm:w-1/2 md:w-1/3 lg:w-1/5 text-center">
-    <img src={cao} alt="caoImg" className="h-32 w-32 object-cover rounded-full" />
-    <p className="font-semibold mt-2">ARUN KUMAR.N</p>
-    <p className="text-sm text-gray-600">CAO</p>
-  </div>
+        {/* CAO */}
+        <div className="flex flex-col items-center w-full sm:w-1/2 md:w-1/3 lg:w-1/5 text-center">
+            <img src={cao} alt="caoImg" className="h-32 w-32 object-cover rounded-full" />
+            <p className="font-semibold mt-2">ARUN KUMAR.N</p>
+            <p className="text-sm text-gray-600">CAO</p>
+        </div>
 
-  {/* CTO */}
-  <div className="flex flex-col items-center w-full sm:w-1/2 md:w-1/3 lg:w-1/5 text-center">
-    <img src={cto} alt="ctoImg" className="h-32 w-32 object-cover rounded-full" />
-    <p className="font-semibold mt-2">SIMHALA SAI SREENIVAS</p>
-    <p className="text-sm text-gray-600">CTO</p>
-  </div>
-</div>
+        {/* CTO */}
+        <div className="flex flex-col items-center w-full sm:w-1/2 md:w-1/3 lg:w-1/5 text-center">
+            <img src={cto} alt="ctoImg" className="h-32 w-32 object-cover rounded-full" />
+            <p className="font-semibold mt-2">SIMHALA SAI SREENIVAS</p>
+            <p className="text-sm text-gray-600">CTO</p>
+        </div>
+        </div>
+    </div>
 
   )
 }
