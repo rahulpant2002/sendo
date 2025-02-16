@@ -38,7 +38,7 @@ export default function LogisticsSlider() {
           {slides.map((slide, index) => (
             <motion.div
               key={index}
-              className="min-w-full flex flex-col items-center justify-center shadow-lg rounded-lg p-6 mx-auto text-center bg-gray-800 text-white"
+              className="min-w-full flex flex-col items-center justify-center shadow-lg rounded-lg p-6 mx-auto text-center bg-white text-black"
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}

@@ -3,7 +3,8 @@ import img5 from "../../Images/img5.jpg"
 import ContactSection from "../ContactSection";
 import LogisticsSlider from "./LogisticSider";
 import ServicesSlider from "./ServiceSlider";
-import SendoSolutions from "./SendoSolutions"
+import SendoSolutions from "./SendoSolutions";
+import ShipmentForm from './ShipmentForm'
 
 const Home = () => {
   const heading = "Sendo Logistics Transforming Services for All.";
@@ -11,6 +12,7 @@ const Home = () => {
   return (
     <div>
         <BackgroundImg img={img5} heading={heading} text={text} scrollTo="serviceSlider"/>
+        {/* <ShipmentForm/> */}
         <SendoSolutions/>
         <LogisticsSlider/>
         <div id="serviceSlider">
