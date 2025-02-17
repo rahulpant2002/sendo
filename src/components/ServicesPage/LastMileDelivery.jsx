@@ -65,7 +65,7 @@ const LastMileDelivery = () => {
                       ))}
                   </ul>
 
-                  <button onClick={handleContactUs} className="mt-4 text-yellow-600 font-semibold flex items-center cursor-pointer">
+                  <button onClick={handleContactUs} className="mt-4 text-yellow-500 font-semibold flex items-center cursor-pointer">
                                   Contact us <span className="ml-1">➝</span>
                   </button>
               </div>

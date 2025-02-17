@@ -58,7 +58,7 @@ export default function ServicesSlider() {
       <h2 className="text-2xl font-bold mb-4 text-center text-black">Our Services</h2>
       <p className="text-gray-600 text-center mb-6 max-w-2xl">
  From seamless transportation to smart warehousing, distribution, and order fulfillment, Sendo Logistics provides tailored solutions designed for maximum efficiency and innovation. </p>
-      <button onClick={handleBtn} className="bg-black text-white px-4 py-2 rounded-lg mb-6 hover:bg-yellow-600 cursor-pointer">
+      <button onClick={handleBtn} className="bg-black text-white font-semibold px-4 py-2 rounded-lg mb-6 hover:bg-yellow-600 cursor-pointer">
         Know More →
       </button>
 

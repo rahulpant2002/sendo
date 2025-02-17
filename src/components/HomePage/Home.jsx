@@ -18,7 +18,9 @@ const Home = () => {
         <div id="serviceSlider">
           <ServicesSlider />
         </div>
-        <ContactSection/>
+        <div id="contactSection">
+          <ContactSection scrollTo="id" />
+        </div>
     </div>
   )
 }
