@@ -58,7 +58,7 @@ export default function ServicesSlider() {
       <h2 className="text-2xl font-bold mb-4 text-center text-black">Our Services</h2>
       <p className="text-gray-600 text-center mb-6 max-w-2xl">
  From seamless transportation to smart warehousing, distribution, and order fulfillment, Sendo Logistics provides tailored solutions designed for maximum efficiency and innovation. </p>
-      <button onClick={handleBtn} className="bg-black text-white font-semibold px-4 py-2 rounded-lg mb-6 hover:bg-yellow-500 cursor-pointer">
+      <button onClick={handleBtn} className="bg-black text-white font-semibold px-4 py-2 rounded-lg mb-6 hover:bg-yellow-400 cursor-pointer">
         Know More →
       </button>
 
@@ -74,7 +74,7 @@ export default function ServicesSlider() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <div className="bg-yellow-500 text-black p-6 rounded-lg shadow-lg w-full max-w-sm text-center">
+          <div className="bg-yellow-400 text-black p-6 rounded-lg shadow-lg w-full max-w-sm text-center">
             <h3 className="text-lg font-semibold mb-2">{slides[currentSlide].title}</h3>
             <p className="text-sm">{slides[currentSlide].description}</p>
           </div>

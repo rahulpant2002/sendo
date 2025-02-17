@@ -26,7 +26,7 @@ export default function WhyPartner() {
 <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
         {benefits.map((benefit, index) => (
 <div key={index} className="bg-white p-6 rounded-2xl shadow-lg flex flex-col items-center">
-<div className="bg-yellow-500 w-16 h-16 flex items-center justify-center rounded-full mb-4">
+<div className="bg-yellow-400 w-16 h-16 flex items-center justify-center rounded-full mb-4">
               {benefit.icon}
 </div>
 <p className="text-gray-800 text-lg font-medium">{benefit.title}</p>

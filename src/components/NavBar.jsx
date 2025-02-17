@@ -65,7 +65,7 @@ const NavLink = ({ to, children }) => {
     <Link
       to={to}
       className={`px-4 py-2 rounded transition duration-200 ${
-        isActive ? "bg-yellow-500 text-white font-semibold" : "hover:text-yellow-500"
+        isActive ? "bg-yellow-400 text-white font-semibold" : "hover:text-yellow-400"
       }`}
     >
       {children}
@@ -83,7 +83,7 @@ const NavLinkMobile = ({ to, children, setIsOpen }) => {
       to={to}
       onClick={() => setIsOpen(false)}
       className={`block px-4 py-3 border-b border-gray-200 transition ${
-        isActive ? "bg-yellow-500 text-white font-semibold" : "hover:bg-gray-100"
+        isActive ? "bg-yellow-400 text-white font-semibold" : "hover:bg-gray-100"
       }`}
     >
       {children}

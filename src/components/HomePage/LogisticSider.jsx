@@ -43,7 +43,7 @@ export default function LogisticsSlider() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
             >
-              <div className="text-yellow-500 mb-4">{slide.icon}</div>
+              <div className="text-yellow-400 mb-4">{slide.icon}</div>
               <p className="text-lg font-medium text-center ">{slide.title}</p>
             </motion.div>
           ))}
@@ -55,7 +55,7 @@ export default function LogisticsSlider() {
           <button
             key={index}
             className={`h-4 w-4 cursor-pointer rounded-full transition-colors duration-300 ${
-              currentSlide === index ? "bg-yellow-500 scale-125" : "bg-gray-400"
+              currentSlide === index ? "bg-yellow-400 scale-125" : "bg-gray-400"
             }`}
             onClick={() => {
               setCurrentSlide(index);

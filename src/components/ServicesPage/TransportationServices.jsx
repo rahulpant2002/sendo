@@ -13,7 +13,7 @@ const TransportationServices = () => {
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-gray-900">Transportation Services</h2>
         <p className="text-gray-600 mt-2">
-          <span className="font-semibold text-yellow-500">FREIGHT TRANSPORTATION</span>
+          <span className="font-semibold text-yellow-400">FREIGHT TRANSPORTATION</span>
           <br />
                   Involves the movement of goods via various modes such as road, rail.
         </p>
@@ -27,7 +27,7 @@ const TransportationServices = () => {
           <p className="text-gray-600 text-center mt-2">
                       Guaranteed fast and timely delivery. Swift handling for time-sensitive shipments.
           </p>
-          <button onClick={handleContactUs} className="cursor-pointer block mx-auto mt-4 text-yellow-500 font-semibold hover:underline">
+          <button onClick={handleContactUs} className="cursor-pointer block mx-auto mt-4 text-yellow-400 font-semibold hover:underline">
                       Contact us →
           </button>
         </div>
@@ -39,19 +39,19 @@ const TransportationServices = () => {
           <p className="text-gray-600 text-center mt-2">
                       Diverse transportation options: ground, air, and sea. Flexibility to meet unique shipping requirements.
           </p>
-          <button onClick={handleContactUs} className="cursor-pointer block mx-auto mt-4 text-yellow-500 font-semibold hover:underline">
+          <button onClick={handleContactUs} className="cursor-pointer block mx-auto mt-4 text-yellow-400 font-semibold hover:underline">
                       Contact us →
           </button>
         </div>
         
                 {/* Real-time Tracking */}
-        <div className="bg-white p-6 shadow-lg rounded-xl border-2 border-yellow-500 hover:shadow-2xl transition duration-300">
+        <div className="bg-white p-6 shadow-lg rounded-xl border-2 border-yellow-400 hover:shadow-2xl transition duration-300">
           <FiMapPin className="text-4xl text-gray-700 mx-auto" />
           <h3 className="text-xl font-semibold text-gray-900 mt-4 text-center">Real-time Tracking</h3>
           <p className="text-gray-600 text-center mt-2">
                       Advanced tracking systems for shipment visibility. Monitor your cargo in real time for increased transparency.
           </p>
-          <button onClick={handleContactUs} className="cursor-pointer block mx-auto mt-4 text-yellow-500 font-semibold hover:underline">
+          <button onClick={handleContactUs} className="cursor-pointer block mx-auto mt-4 text-yellow-400 font-semibold hover:underline">
                       Contact us →
           </button>
         </div>

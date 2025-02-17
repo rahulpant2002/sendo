@@ -73,7 +73,7 @@ const SupplyChainPlanning = () => {
             <div
               key={index}
               className={`border p-6 rounded-lg shadow-md bg-white ${
-                service.highlight ? "border-yellow-500 bg-yellow-100" : ""
+                service.highlight ? "border-yellow-400 bg-yellow-100" : ""
               }`}
             >
               <div className="text-3xl">{service.icon}</div>
@@ -88,7 +88,7 @@ const SupplyChainPlanning = () => {
                   </li>
                 ))}
               </ul>
-              <button onClick={handleContactUs} className="mt-4 cursor-pointer text-yellow-500 font-semibold flex items-center">
+              <button onClick={handleContactUs} className="mt-4 cursor-pointer text-yellow-400 font-semibold flex items-center">
                               Contact us <span className="ml-1">➝</span>
               </button>
             </div>

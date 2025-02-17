@@ -33,7 +33,7 @@ const SendoSolutions = () => {
     <section className="max-w-screen-xl mx-auto px-6 py-12 bg-white text-black my-8">
       {/* Heading */}
       <h2 className="text-3xl md:text-4xl font-bold text-center">
-        <span className="text-yellow-500">Sendo's</span> suite of solutions for
+        <span className="text-yellow-400">Sendo's</span> suite of solutions for
       </h2>
 
       {/* Features Grid */}

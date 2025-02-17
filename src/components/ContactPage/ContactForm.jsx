@@ -58,8 +58,8 @@ function ContactForm() {
     <div className="my-10 p-4 flex justify-center items-center">
       <div className="bg-black rounded-2xl shadow-xl p-6 md:p-8 w-full max-w-4xl">
         <div className="flex items-center gap-3 mb-6">
-          <Truck className="w-8 h-8 text-yellow-500" />
-          <h1 className="text-2xl md:text-3xl font-bold text-yellow-500">Shipping Details</h1>
+          <Truck className="w-8 h-8 text-yellow-400" />
+          <h1 className="text-2xl md:text-3xl font-bold text-yellow-400">Shipping Details</h1>
         </div>
 
         <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -87,7 +87,7 @@ function ContactForm() {
 
           <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Email*" required className="input  bg-white text-black border-black border-2" />
 
-          <button type="submit" className="w-[20%] md:col-span-2 bg-yellow-500 text-white font-semibold py-2 rounded-lg cursor-pointer">
+          <button type="submit" className="w-[20%] md:col-span-2 bg-yellow-400 text-white font-semibold py-2 rounded-lg cursor-pointer">
             Submit
           </button>
 
@@ -161,7 +161,7 @@ export default ContactForm;
 //       <div className="bg-black rounded-2xl shadow-xl p-6 md:p-8 w-full max-w-4xl">
 //         <div className="flex items-center gap-3 mb-6">
 //           <Truck className="w-8 h-8 text-indigo-600" />
-//           <h1 className="text-2xl md:text-3xl font-bold text-yellow-500">Shipping Details</h1>
+//           <h1 className="text-2xl md:text-3xl font-bold text-yellow-400">Shipping Details</h1>
 //         </div>
 
 //         <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -188,7 +188,7 @@ export default ContactForm;
 
 //           <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Email*" required className="input  bg-white text-black border-black border-2" />
 
-//           <button type="submit" className="w-full md:col-span-2 bg-yellow-500 text-white font-semibold py-2 rounded-lg cursor-pointer">
+//           <button type="submit" className="w-full md:col-span-2 bg-yellow-400 text-white font-semibold py-2 rounded-lg cursor-pointer">
 //             Submit
 //           </button>
 //         </form>

@@ -4,7 +4,7 @@ const VisionMission = () => {
   return (
     <div className="flex flex-col md:flex-row justify-center items-center gap-8 p-8 bg-white">
       {/* Vision Section */}
-      <div className="w-full md:w-1/2 p-6 bg-gradient-to-b from-black to-yellow-600 text-white rounded-xl shadow-lg text-center">
+      <div className="w-full md:w-1/2 p-6 bg-gradient-to-b from-black to-yellow-400 text-white rounded-xl shadow-lg text-center">
         <div className="flex flex-col items-center">
           <span className="text-4xl mb-4">👁️</span>
           <h2 className="text-2xl font-semibold">Our Vision</h2>
@@ -15,7 +15,7 @@ const VisionMission = () => {
       </div>
 
       {/* Mission Section */}
-      <div className="w-full md:w-1/2 p-6 bg-gradient-to-b from-yellow-600 to-black text-white rounded-xl shadow-lg text-center relative overflow-hidden">
+      <div className="w-full md:w-1/2 p-6 bg-gradient-to-b from-yellow-400 to-black text-white rounded-xl shadow-lg text-center relative overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{ backgroundImage: "url('https://source.unsplash.com/800x600/?logistics,transportation')" }}

@@ -29,7 +29,7 @@ export default function Industries() {
   return (
     <div className="max-w-5xl mx-auto text-center text-black py-12 px-4">
       <h2 className="text-3xl font-semibold mb-6">Industries We Serve</h2>
-      <div className="w-16 h-1 bg-yellow-500 mx-auto mb-8"></div>
+      <div className="w-16 h-1 bg-yellow-400 mx-auto mb-8"></div>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
 
         {industries.map((industry, index) => (
