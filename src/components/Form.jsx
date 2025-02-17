@@ -16,8 +16,8 @@ export default function ContactForm() {
 
   return (
     <div className="flex justify-center items-center my-10 bg-white">
-      <div className="w-full max-w-md my-5 bg-black text-white p-6 rounded-lg shadow-lg">
-        <h2 className="text-2xl font-bold text-center text-white mb-6">Contact Us</h2>
+      <div className="w-full max-w-md my-5 bg-white  p-6 rounded-lg shadow-lg">
+        <h2 className="text-2xl font-bold text-center text-black mb-6">Contact Us</h2>
 
         {submitted ? (
           <p className="text-yellow-400 text-center">Thank you for contacting us!</p>
