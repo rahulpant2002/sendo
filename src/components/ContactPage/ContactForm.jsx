@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Truck } from "lucide-react";
 import { ToastContainer, toast } from "react-toastify";
@@ -55,9 +56,9 @@ function ContactForm() {
 
   return (
     <div className="min-h-screen p-4 flex justify-center items-center">
-      <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8 w-full max-w-4xl">
+      <div className="bg-black rounded-2xl shadow-xl p-6 md:p-8 w-full max-w-4xl">
         <div className="flex items-center gap-3 mb-6">
-          {/* <Truck className="w-8 h-8 text-indigo-600" /> */}
+          <Truck className="w-8 h-8 text-indigo-600" />
           <h1 className="text-2xl md:text-3xl font-bold text-yellow-500">Shipping Details</h1>
         </div>
 
@@ -100,6 +101,8 @@ function ContactForm() {
 }
 
 export default ContactForm;
+
+
 
 
 // import { useState } from "react";
@@ -200,5 +203,4 @@ export default ContactForm;
 // const inputStyle = "w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition";
 // const Input = ({ ...props }) => <input className={inputStyle} {...props} />;
 // const Select = ({ children, ...props }) => <select className={inputStyle} {...props}>{children}</select>;
-
 

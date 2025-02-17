@@ -88,7 +88,7 @@ const SupplyChainPlanning = () => {
                   </li>
                 ))}
               </ul>
-              <button onClick={handleContactUs} className="mt-4 cursor-pointer text-yellow-600 font-semibold flex items-center">
+              <button onClick={handleContactUs} className="mt-4 cursor-pointer text-yellow-500 font-semibold flex items-center">
                               Contact us <span className="ml-1">➝</span>
               </button>
             </div>
