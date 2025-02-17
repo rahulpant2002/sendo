@@ -3,92 +3,85 @@ import LogoFooter from "./LogoFooter";
 const Footer = () => {
   return (
     <div>
-      <LogoFooter/>
-      <footer className="bg-white text-black py-10 px-6 ">
-        <div className="max-w-7xl mx-auto text-center md:text-left">
-          <div className="flex flex-col md:flex-row md:justify-between">
-
-            {/* Right Section - Services & Links */}
-            <div className=" flex flex-wrap justify-between gap-8 w-full md:w-3/4 mx-auto">
-              {/* SERVICES */}
-              <div>
-                <h2 className="font-semibold">SERVICES</h2>
-                <ul className="text-sm space-y-2 mt-2">
-                  <li>Express Parcel</li>
-                  <li>Warehousing</li>
-                  <li>Part Truckload</li>
-                  <li>Full Truckload</li>
-                  <li>Software Platform</li>
-                  {/* <li>Cross Border</li> */}
-                  {/* <li>Data Intelligence</li> */}
-                </ul>
-              </div>
-
-              {/* SOLUTIONS */}
-              <div>
-                <h2 className="font-semibold">SOLUTIONS</h2>
-                <ul className="text-sm space-y-2 mt-2">
-                  <li>D2C Brands</li>
-                  <li>B2B Enterprises</li>
-                  <li>B2C Enterprises</li>
-                </ul>
-              </div>
-
-              {/* PARTNERS */}
-              <div>
-                <h2 className="font-semibold">PARTNERS</h2>
-                <ul className="text-sm space-y-2 mt-2">
-                  {/* <li>Franchise Opportunities</li> */}
-                  <li>Delivery Partner</li>
-                  <li>Fleet Owner</li>
-                </ul>
-              </div>
-
-              {/* COMPANY */}
-              <div>
-                <h2 className="font-semibold">COMPANY</h2>
-                <ul className="text-sm space-y-2 mt-2">
-                  <li>About Us</li>
-                  <li>Governance</li>
-                  {/* <li>Investor Relations</li> */}
-                  {/* <li>ODR Portal</li> */}
-                  {/* <li>Press Release</li> */}
-                  <li>Careers</li>
-                </ul>
-              </div>
-
-              {/* GET IN TOUCH */}
-              <div>
-                <h2 className="font-semibold">GET IN TOUCH</h2>
-                <ul className="text-sm space-y-2 mt-2">
-                  <li>Support</li>
-                  <li>Raise a Query</li>
-                  <li>Store Locator</li>
-                  <li>Rate Calculator</li>
-                </ul>
-              </div>
-
-              {/* POLICIES */}
-              <div>
-                <h2 className="font-semibold">POLICIES</h2>
-                <ul className="text-sm space-y-2 mt-2">
-                  <li>Terms & Conditions</li>
-                  <li>Privacy Policy</li>
-                  <li>Cookie Policy</li>
-                  <li>Fraud Disclaimer</li>
-                  {/* <li>ONDC Disclaimer</li> */}
-                </ul>
-              </div>
+      <LogoFooter />
+      <footer className="bg-white text-black py-10 px-6">
+        <div className="max-w-6xl mx-auto text-center sm:text-left">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+            
+            {/* SERVICES */}
+            <div>
+              <h2 className="font-semibold">SERVICES</h2>
+              <ul className="text-sm space-y-2 mt-2">
+                <li>Express Parcel</li>
+                <li>Warehousing</li>
+                <li>Part Truckload</li>
+                <li>Full Truckload</li>
+                <li>Software Platform</li>
+              </ul>
             </div>
+
+            {/* SOLUTIONS */}
+            <div>
+              <h2 className="font-semibold">SOLUTIONS</h2>
+              <ul className="text-sm space-y-2 mt-2">
+                <li>D2C Brands</li>
+                <li>B2B Enterprises</li>
+                <li>B2C Enterprises</li>
+              </ul>
+            </div>
+
+            {/* PARTNERS */}
+            <div>
+              <h2 className="font-semibold">PARTNERS</h2>
+              <ul className="text-sm space-y-2 mt-2">
+                <li>Delivery Partner</li>
+                <li>Fleet Owner</li>
+              </ul>
+            </div>
+
+            {/* COMPANY */}
+            <div>
+              <h2 className="font-semibold">COMPANY</h2>
+              <ul className="text-sm space-y-2 mt-2">
+                <li>About Us</li>
+                <li>Governance</li>
+                <li>Careers</li>
+              </ul>
+            </div>
+
+            {/* GET IN TOUCH */}
+            <div>
+              <h2 className="font-semibold">GET IN TOUCH</h2>
+              <ul className="text-sm space-y-2 mt-2">
+                <li>Support</li>
+                <li>Raise a Query</li>
+                <li>Rate Calculator</li>
+              </ul>
+            </div>
+
+            {/* POLICIES */}
+            <div>
+              <h2 className="font-semibold">POLICIES</h2>
+              <ul className="text-sm space-y-2 mt-2">
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+                <li>Cookie Policy</li>
+                <li>Fraud Disclaimer</li>
+              </ul>
+            </div>
+
           </div>
         </div>
       </footer>
-      <p className='text-center text-white p-2 bg-black'>Copyright © {new Date().getFullYear()} - All right reserved by Sendo</p>
+      <p className="text-center text-white p-4 bg-black">
+        Copyright © {new Date().getFullYear()} - All rights reserved by Sendo
+      </p>
     </div>
   );
 };
 
 export default Footer;
+
 
 
 // import React from 'react'

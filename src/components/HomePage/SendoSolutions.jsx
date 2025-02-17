@@ -5,13 +5,13 @@ const solutions = [
   {
     title: "D2C Brands",
     description: "We provide an integrated logistics solution built on Express Parcel, Warehousing, Freight, and more.",
-    imgSrc: "https://cdn-icons-png.flaticon.com/512/2643/2643371.png",
+    imgSrc: "https://cdn-icons-png.flaticon.com/512/1828/1828959.png",
     alt: "D2C Icon",
   },
   {
     title: "B2C Customers",
     description: "India’s only online courier solution for personal shipping needs, with real-time tracking and free pickup.",
-    imgSrc: "https://cdn-icons-png.flaticon.com/512/2643/2643380.png",
+    imgSrc: "https://cdn-icons-png.flaticon.com/512/2643/2643314.png",
     alt: "Courier Icon",
   },
   {
