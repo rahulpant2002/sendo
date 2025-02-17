@@ -5,7 +5,7 @@ import LogisticsSlider from "./LogisticSider";
 import ServicesSlider from "./ServiceSlider";
 import SendoSolutions from "./SendoSolutions";
 import ShipmentForm from './ShipmentForm'
-import Form from "./Form"
+import Form from "../Form"
 
 const Home = () => {
   const heading = "Sendo Logistics Transforming Services for All.";

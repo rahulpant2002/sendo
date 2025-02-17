@@ -49,6 +49,7 @@ const NavBar = () => {
             <NavLinkMobile to="/about" setIsOpen={setIsOpen}>About Us</NavLinkMobile>
             <NavLinkMobile to="/services" setIsOpen={setIsOpen}>Our Services</NavLinkMobile>
             <NavLinkMobile to="/vendor" setIsOpen={setIsOpen}>Vendor</NavLinkMobile>
+            <NavLinkMobile to="/quote" setIsOpen={setIsOpen}>Get Quote</NavLinkMobile>
             <NavLinkMobile to="/contact" setIsOpen={setIsOpen}>Contact Us</NavLinkMobile>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import img20 from "../../Images/img20.jpg"
 import flowChart from "../../Images/flowChart.svg"
-import Form from "./Form"
+import Form from "../Form"
 const Contact = () => {
 
   return (
