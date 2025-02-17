@@ -15,9 +15,9 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="flex justify-center items-center my-10 bg-white">
+    <div className="flex justify-center items-center my-10 bg-black">
       <div className="w-full max-w-md my-5 bg-white  p-6 rounded-lg shadow-lg">
-        <h2 className="text-2xl font-bold text-center text-black mb-6">Contact Us</h2>
+        <h2 className="text-2xl font-bold text-center text-black my-6">Contact Us</h2>
 
         {submitted ? (
           <p className="text-yellow-400 text-center">Thank you for contacting us!</p>
@@ -25,7 +25,7 @@ export default function ContactForm() {
           <form onSubmit={handleSubmit} className="space-y-4 my-5 text-white">
             {/* Name Input */}
             <div className="flex flex-col">
-              <label className="text-white">Name</label>
+              <label className="text-black">Name</label>
               <input 
                 type="text" 
                 name="name" 
@@ -39,7 +39,7 @@ export default function ContactForm() {
 
             {/* Mobile No */}
             <div className="flex flex-col">
-              <label className="text-white">Mobile No</label>
+              <label className="text-black">Mobile No</label>
               <input 
                 type="tel" 
                 name="mobileNo" 
@@ -53,7 +53,7 @@ export default function ContactForm() {
 
             {/* Email Input */}
             <div className="flex flex-col">
-              <label className="text-white">Email</label>
+              <label className="text-black">Email</label>
               <input 
                 type="email" 
                 name="email" 
@@ -66,7 +66,7 @@ export default function ContactForm() {
             </div>
 
             <div className="flex flex-col">
-              <label className="text-white">Service Location</label>
+              <label className="text-black">Service Location</label>
               <input 
                 type="text" 
                 name="location" 
@@ -80,7 +80,7 @@ export default function ContactForm() {
 
             {/* Message Input */}
             <div className="flex flex-col">
-              <label className="text-white">Message</label>
+              <label className="text-black">Message</label>
               <textarea 
                 name="message" 
                 value={formData.message} 
