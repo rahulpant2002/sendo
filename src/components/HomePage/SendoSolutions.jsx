@@ -30,7 +30,7 @@ const SendoSolutions = () => {
   }
 
   return (
-    <section className="max-w-screen-xl mx-auto px-6 py-12 bg-white text-black my-8">
+    <section className="max-w-screen-xl mx-auto px-6 py-12 bg-white text-black mb-8">
       {/* Heading */}
       <h2 className="text-3xl md:text-4xl font-bold text-center">
         <span className="text-yellow-400">Sendo's</span> suite of solutions for

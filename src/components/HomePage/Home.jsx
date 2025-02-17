@@ -6,6 +6,7 @@ import ServicesSlider from "./ServiceSlider";
 import SendoSolutions from "./SendoSolutions";
 import ShipmentForm from './ShipmentForm'
 import Form from "../Form"
+import GetQuoteBtn from "./GetQuoteBtn";
 
 const Home = () => {
   const heading = "Sendo Logistics Transforming Services for All.";
@@ -13,6 +14,7 @@ const Home = () => {
   return (
     <div>
         <BackgroundImg img={img19} heading={heading} text={text} scrollTo="serviceSlider"/>
+        <GetQuoteBtn/>
         {/* <ShipmentForm/> */}
         <SendoSolutions/>
         <LogisticsSlider/>

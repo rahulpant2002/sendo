@@ -7,7 +7,7 @@ import Benefits from './Benefits';
 import ContactSection from '../ContactSection';
 
 const Vendor = () => {
-  const heading = "Sendo Logistics Comprehensive Solutions for Our Vendors.";
+  const heading = "Sendo Logistics Solutions for Our Vendors.";
   const text = "Partner with Sendo Logistics to unlock all-in-one solutions and exclusive benefits, including higher earnings, professional training, insurance, digitization, medical checkups, and peace of mind—empowering you every step of the way.";
   return (
     <div>

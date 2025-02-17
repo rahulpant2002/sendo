@@ -8,7 +8,7 @@ import SupplyChainPlanning from "./SupplyChainPlanning"
 import { Warehouse } from "lucide-react"
 
 const Services = () => {
-  const heading = "Trusted Packers & Movers for All Your Relocation Needs"
+  const heading = "Trusted Sendo Logistics for All Your Relocation Needs"
   const text = "On-time Delivery. Guaranteed Damage-free Relocation. Real-time Tracking."
   return (
     <div>
