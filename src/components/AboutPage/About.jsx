@@ -6,7 +6,7 @@ import Industries from "./Industries";
 import VisionMission from "./VisionMission";
 
 const About = () => {
-  const heading = "Delivering Sendo Logistics Delivering Excellence Excellence";
+  const heading = "Delivering Sendo Logistics Excellence";
   const text = "Sendo Logistics, a cutting-edge Bengaluru-based company, leverages advanced technology and strategic partnerships to deliver exceptional logistics solutions while prioritizing sustainability and employee well-being."
   return (
     <div>
