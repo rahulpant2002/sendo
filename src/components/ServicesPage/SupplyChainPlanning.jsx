@@ -72,9 +72,7 @@ const SupplyChainPlanning = () => {
           {detailedServices.map((service, index) => (
             <div
               key={index}
-              className={`border p-6 rounded-lg shadow-md bg-white ${
-                service.highlight ? "border-yellow-400 bg-yellow-100" : ""
-              }`}
+              className={`border p-6 rounded-lg shadow-md bg-white `}
             >
               <div className="text-3xl">{service.icon}</div>
               <h3 className="text-lg font-semibold text-gray-800 mt-4">

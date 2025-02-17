@@ -6,6 +6,7 @@ import Services from "./components/ServicesPage/Services"
 import Contact from "./components/ContactPage/Contact"
 import ScrollToTop from "./components/ScrollToTop"
 import Vendor from "./components/VendorPage/Vendor"
+import Quote from "./components/GetQuotePage/Quote"
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
                 <Route path="/services" element={<Services/>}/>
                 <Route path="/contact" element={<Contact/>}/>
                 <Route path="/vendor" element={<Vendor/>}/> 
+                <Route path="/quote" element={<Quote/>} />
                 <Route/>
             </Route>
           </Routes>
