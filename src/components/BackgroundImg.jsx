@@ -21,7 +21,7 @@ const BackgroundImg = ({img, heading, text, scrollTo}) => {
               {text}
             </p>
             <button onClick={handleBtn} className="mt-4 px-6 py-2 cursor-pointer bg-balck text-white font-semibold rounded-lg transition-all duration-300 hover:scale-110">
-            Know More
+            Know More →
             </button>
         </div>
 

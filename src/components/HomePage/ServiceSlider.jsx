@@ -59,7 +59,7 @@ export default function ServicesSlider() {
       <p className="text-gray-600 text-center mb-6 max-w-2xl">
  From seamless transportation to smart warehousing, distribution, and order fulfillment, Sendo Logistics provides tailored solutions designed for maximum efficiency and innovation. </p>
       <button onClick={handleBtn} className="bg-black text-white px-4 py-2 rounded-lg mb-6 hover:bg-yellow-600 cursor-pointer">
-        Know More
+        Know More →
       </button>
 
       <div className="relative w-full max-w-5xl flex overflow-hidden">
