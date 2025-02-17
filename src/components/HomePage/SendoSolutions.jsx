@@ -41,7 +41,7 @@ const SendoSolutions = () => {
         {solutions.map((solution, index) => (
           <div key={index} className="p-6 bg-yellow-400 text-black rounded-lg shadow-lg text-center md:text-left">
             <div className="flex justify-center md:justify-start mb-4">
-              <img src={solution.imgSrc} alt={solution.alt} className="w-12 h-12" />
+              <img src={solution.imgSrc} alt={solution.alt} className="w-12 h-12 text-black" />
             </div>
             <h3 className="text-xl font-bold">{solution.title}</h3>
             <p className="mt-2">{solution.description}</p>

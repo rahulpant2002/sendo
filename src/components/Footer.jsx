@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <LogoFooter/>
-      <footer className="bg-black text-white py-10 px-6 ">
+      <footer className="bg-white text-black py-10 px-6 ">
         <div className="max-w-7xl mx-auto text-center md:text-left">
           <div className="flex flex-col md:flex-row md:justify-between">
 
@@ -13,7 +13,7 @@ const Footer = () => {
               {/* SERVICES */}
               <div>
                 <h2 className="font-semibold">SERVICES</h2>
-                <ul className="text-sm text-white space-y-2 mt-2">
+                <ul className="text-sm space-y-2 mt-2">
                   <li>Express Parcel</li>
                   <li>Warehousing</li>
                   <li>Part Truckload</li>
@@ -27,7 +27,7 @@ const Footer = () => {
               {/* SOLUTIONS */}
               <div>
                 <h2 className="font-semibold">SOLUTIONS</h2>
-                <ul className="text-sm text-white space-y-2 mt-2">
+                <ul className="text-sm space-y-2 mt-2">
                   <li>D2C Brands</li>
                   <li>B2B Enterprises</li>
                   <li>B2C Enterprises</li>
@@ -37,7 +37,7 @@ const Footer = () => {
               {/* PARTNERS */}
               <div>
                 <h2 className="font-semibold">PARTNERS</h2>
-                <ul className="text-sm text-white space-y-2 mt-2">
+                <ul className="text-sm space-y-2 mt-2">
                   {/* <li>Franchise Opportunities</li> */}
                   <li>Delivery Partner</li>
                   <li>Fleet Owner</li>
@@ -47,7 +47,7 @@ const Footer = () => {
               {/* COMPANY */}
               <div>
                 <h2 className="font-semibold">COMPANY</h2>
-                <ul className="text-sm text-white space-y-2 mt-2">
+                <ul className="text-sm space-y-2 mt-2">
                   <li>About Us</li>
                   <li>Governance</li>
                   {/* <li>Investor Relations</li> */}
@@ -60,7 +60,7 @@ const Footer = () => {
               {/* GET IN TOUCH */}
               <div>
                 <h2 className="font-semibold">GET IN TOUCH</h2>
-                <ul className="text-sm text-white space-y-2 mt-2">
+                <ul className="text-sm space-y-2 mt-2">
                   <li>Support</li>
                   <li>Raise a Query</li>
                   <li>Store Locator</li>
@@ -71,7 +71,7 @@ const Footer = () => {
               {/* POLICIES */}
               <div>
                 <h2 className="font-semibold">POLICIES</h2>
-                <ul className="text-sm text-white space-y-2 mt-2">
+                <ul className="text-sm space-y-2 mt-2">
                   <li>Terms & Conditions</li>
                   <li>Privacy Policy</li>
                   <li>Cookie Policy</li>
@@ -83,7 +83,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <p className='text-center text-black p-2 bg-white'>Copyright © {new Date().getFullYear()} - All right reserved by Lavakumar.N</p>
+      <p className='text-center text-white p-2 bg-black'>Copyright © {new Date().getFullYear()} - All right reserved by Sendo</p>
     </div>
   );
 };

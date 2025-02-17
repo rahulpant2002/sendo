@@ -4,6 +4,7 @@ import BackgroundImg from '../BackgroundImg';
 import WhyPartner from './WhyPartners';
 import VendorPartnership from './VendorPartnership';
 import Benefits from './Benefits';
+import ContactSection from '../ContactSection';
 
 const Vendor = () => {
   const heading = "Sendo Logistics Comprehensive Solutions for Our Vendors.";
@@ -16,6 +17,7 @@ const Vendor = () => {
         <Benefits/> 
       </div>
       <VendorPartnership/>
+      <ContactSection/>
     </div>
   )
 }
