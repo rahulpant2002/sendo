@@ -55,10 +55,10 @@ function ContactForm() {
   };
 
   return (
-    <div className="min-h-screen p-4 flex justify-center items-center">
+    <div className="my-10 p-4 flex justify-center items-center">
       <div className="bg-black rounded-2xl shadow-xl p-6 md:p-8 w-full max-w-4xl">
         <div className="flex items-center gap-3 mb-6">
-          <Truck className="w-8 h-8 text-indigo-600" />
+          <Truck className="w-8 h-8 text-yellow-500" />
           <h1 className="text-2xl md:text-3xl font-bold text-yellow-500">Shipping Details</h1>
         </div>
 

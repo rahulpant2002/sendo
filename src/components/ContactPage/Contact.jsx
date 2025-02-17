@@ -7,7 +7,6 @@ const Contact = () => {
     <div>
         <img src={img3} alt="bgImg" className="w-full h-[55vh] object-cover opacity-80" />
         <h1 className="absolute font-bold top-1/3 left-10 text-4xl bg-gradient-to-r from-white to-pink-600 text-transparent bg-clip-text">Contact Us</h1>
-
         <ContactForm/>
 
         {/* <div className="flex flex-col justify-center items my-5">
