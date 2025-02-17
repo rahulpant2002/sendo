@@ -4,7 +4,7 @@ const industries = [
 
   { name: "Retail", icon: Store },
 
-  { name: "E-Commerce", icon: ShoppingCart },
+  { name: "Ecommerce", icon: ShoppingCart },
 
   // { name: "Automotive", icon: Car },
 
