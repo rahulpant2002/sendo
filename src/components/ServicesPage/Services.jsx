@@ -6,10 +6,19 @@ import LastMileDelivery from "./LastMileDelivery"
 import WarehousingAndDistribution from "./WarehousingAndDistribution"
 import SupplyChainPlanning from "./SupplyChainPlanning"
 import { Warehouse } from "lucide-react"
+import ScrollToTopButton from "../ScrollToTopButton"
 
 const Services = () => {
   const heading = "Trusted Sendo Logistics for All Your Relocation Needs"
   const text = "On-time Delivery. Guaranteed Damage-free Relocation. Real-time Tracking."
+
+  const goToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div>
       <BackgroundImg img={img18} heading={heading} text={text} scrollTo="warehouse"/>;
@@ -20,6 +29,7 @@ const Services = () => {
       </div>
       <SupplyChainPlanning/>
       <ContactSection/>
+      <ScrollToTopButton/>
     </div>
   )
 }

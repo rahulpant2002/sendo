@@ -1,5 +1,5 @@
 import BackgroundImg from "../BackgroundImg"
-import img19 from "../../Images/img19.jpg"
+import img21 from "../../Images/img21.jpeg"
 import ContactSection from "../ContactSection";
 import LogisticsSlider from "./LogisticSider";
 import ServicesSlider from "./ServiceSlider";
@@ -7,22 +7,43 @@ import SendoSolutions from "./SendoSolutions";
 import ShipmentForm from './ShipmentForm'
 import Form from "../Form"
 import GetQuoteBtn from "./GetQuoteBtn";
+import TestimonialSlider from "./TestimonialSlider";
+import ScrollToTopButton from "../ScrollToTopButton";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
   const heading = "Sendo Logistics Transforming Services for All.";
   const text = "Seeking a logistics partner that’s affordable, advanced, and future-ready? Sendo Logistics delivers excellence with cutting-edge technology, strategic collaborations, and a strong commitment to sustainability—redefining the future of logistics."
+
+  const goToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div>
-        <BackgroundImg img={img19} heading={heading} text={text} scrollTo="serviceSlider"/>
+        <BackgroundImg img={img21} heading={heading} text={text} scrollTo="serviceSlider"/>
         <GetQuoteBtn/>
         {/* <ShipmentForm/> */}
-        <SendoSolutions/>
+
+        <div id="solutions">
+          <SendoSolutions/>
+        </div>
+
         <LogisticsSlider/>
+
         <div id="serviceSlider">
           <ServicesSlider />
         </div>
+
+        <TestimonialSlider/>
         <ContactSection/>
         <Form/>
+
+        <ScrollToTopButton/>
     </div>
   )
 }
