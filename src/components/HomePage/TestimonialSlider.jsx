@@ -22,10 +22,12 @@ const testimonials = [
 
 const TestimonialSlider = () => {
   return (
-    <div className="max-w-3xl mx-auto p-6 text-black bg-yellow-400 rounded-md my-5">
+    <div className="max-w-3xl mx-auto p-6 text-white bg-black rounded-md my-5">
       <h2 className="text-center text-2xl font-bold mb-6">Testimonials</h2>
       <Swiper
-        pagination={{ clickable: true }}
+        pagination={{
+          clickable: true,
+        }}
         modules={[Pagination, Autoplay]}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         className="mySwiper"
@@ -33,13 +35,28 @@ const TestimonialSlider = () => {
         {testimonials.map((testimonial, index) => (
           <SwiperSlide
             key={index}
-            className="p-6 bg-white rounded-lg text-center"
+            className="p-6 bg-white text-black rounded-lg text-center"
           >
             <p className="text-lg italic">"{testimonial.text}"</p>
             <h3 className="mt-4 font-semibold">{testimonial.name}</h3>
           </SwiperSlide>
         ))}
       </Swiper>
+
+      <style jsx>{`
+        /* Inactive dot (white) */
+        .swiper-pagination .swiper-pagination-bullet {
+          background-color: white !important;
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+        }
+
+        /* Active dot (yellow-400) */
+        .swiper-pagination .swiper-pagination-bullet-active {
+          background-color: #facc15 !important; /* Tailwind yellow-400 */
+        }
+      `}</style>
     </div>
   );
 };
