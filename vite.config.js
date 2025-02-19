@@ -9,6 +9,9 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  server: {
+    historyApiFallback: true, // Ensures correct routing on refresh
+  },
   // resolve: {
   //   alias: {
   //     '@': path.resolve(__dirname, 'src'),
