@@ -12,7 +12,7 @@ const testimonials = [
   },
   {
     name: "Ms. Aruna Kovvuri",
-    text: "Very well organized operations, modern warehouses are very neat & clean. My heartiest congratulation to OM Team.",
+    text: "Very well organized operations, modern warehouses are very neat & clean. My heartiest congratulation to Sendo Team.",
   },
   {
     name: "Mr. Ashish Kumar Sahu",
