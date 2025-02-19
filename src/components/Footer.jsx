@@ -37,7 +37,13 @@ const Footer = () => {
   };
 
   const handleTouch = () => {
-    navigate('/quote');
+    navigate('/');
+    setTimeout(() => {
+      const element = document.getElementById("getInTouch");
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 100);
   };
 
   return (
