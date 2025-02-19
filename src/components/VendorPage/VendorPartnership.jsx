@@ -1,35 +1,28 @@
 import React from "react";
-import img9 from "../../Images/img9.jpg"
-import img10 from "../../Images/img10.jpg"
-import img11 from "../../Images/img11.jpg"
-import img12 from "../../Images/img12.jpg"
-import img13 from "../../Images/img13.jpg"
-import img14 from "../../Images/img14.jpg"
-import img15 from "../../Images/img15.jpg"
- 
+
 const requirements = [
   {
-    image: img9, // Replace with actual image URL
+    image: '/Images/img9.jpg', // Replace with actual image URL
     text: "The vendor must possess self-owned or company-owned commercial vehicles."
   },
   {
-    image: img10, // Replace with actual image URL
+    image: '/Images/img10.jpg', // Replace with actual image URL
     text: "The vendor should demonstrate flexibility in scaling up operations based on our needs."
   },
   {
-    image: img11, // Replace with actual image URL
+    image: '/Images/img11.jpg', // Replace with actual image URL
     text: "The vendor should maintain a robust geographical presence with a substantial fleet of vehicles in their designated area."
   },
   {
-    image: img12, // Replace with actual image URL
+    image: '/Images/img12.jpg', // Replace with actual image URL
     text: "The vendor should be a registered and licensed transporter, operating under a proprietorship structure."
   },
   {
-    image: img13, // Replace with actual image URL
+    image: '/Images/img13.jpg', // Replace with actual image URL
     text: "The vendor should have access to well-maintained logistics infrastructure."
   },
   {
-    image: img14, // Replace with actual image URL
+    image: '/Images/img14.jpg', // Replace with actual image URL
     text: "The vendor must adhere to compliance and regulatory requirements."
   }
 ];

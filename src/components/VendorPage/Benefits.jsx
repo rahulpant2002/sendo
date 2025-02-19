@@ -1,35 +1,28 @@
-import img1 from "../../Images/img1.jpg"
-import img2 from "../../Images/img2.jpg"
-import img3 from "../../Images/img3.jpg"
-import img4 from "../../Images/img4.jpg"
-import img5 from "../../Images/img5.jpg"
-import women from "../../Images/women.jpg"
-
 
 export default function Benefits() {
   const benefits = [
     {
-      image: img1, // Replace with actual image URL
+      image: '/Images/img1.jpg', // Replace with actual image URL
       title: "Transparency in the payments",
     },
     {
-      image: img2, // Replace with actual image URL
+      image: '/Images/img2.jpg', // Replace with actual image URL
       title: "Regular medical checkups for the drivers",
     },
     {
-      image: img3, // Replace with actual image URL
+      image: '/Images/img3.jpg', // Replace with actual image URL
       title: "Assistance in the family and medical health insurance",
     },
     {
-      image: img4, // Replace with actual image URL
+      image: '/Images/img4.jpg', // Replace with actual image URL
       title: "Assistance in vehicle insurance",
     },
     {
-      image: img5, // Replace with actual image URL
+      image: '/Images/img5.jpg', // Replace with actual image URL
       title: "Educating the drivers in adapting tech and digitalization",
     },
     {
-      image: women, // Replace with actual image URL
+      image: '/Images/women.jpg', // Replace with actual image URL
       title: "Empowering the women drivers",
       highlight: true,
     },

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "../Images/Logo.png";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +19,7 @@ const NavBar = () => {
           {/* Logo */}
           <div className="ml-0 pl-0">
             <Link to="/" className="text-xl font-bold text-white flex items-center h-40 w-40">
-              <img src={logo} alt="logo" />
+              <img src="/Images/Logo.png" alt="logo" />
             </Link>
           </div>
 

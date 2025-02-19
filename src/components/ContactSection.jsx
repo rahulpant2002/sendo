@@ -1,5 +1,4 @@
 import React from 'react'
-import img16 from "../Images/img16.jpg"
 import BackgroundImg from './BackgroundImg'
 
 const ContactSection = () => {
@@ -7,7 +6,7 @@ const ContactSection = () => {
     const text = "Get in touch with us Ready to enhance your logistics and supply chain? Get in touch with us today!"
   return (
     <div className='bg-black relative'>
-        <BackgroundImg img={img16} heading={heading} text={text} navigateTo="/contact" />
+        <BackgroundImg img="/Images/img16.jpg" heading={heading} text={text} navigateTo="/contact" />
     </div>
   )
 }

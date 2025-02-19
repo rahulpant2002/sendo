@@ -1,7 +1,6 @@
 import React from 'react'
 import ContactForm from './ContactForm'
 import BackgroundImg from '../BackgroundImg';
-import img16 from "../../Images/img13.jpg"
 import ScrollToTopButton from '../ScrollToTopButton';
 
 const Quote = () => {
@@ -17,7 +16,7 @@ const Quote = () => {
 
   return (
     <div>
-        <BackgroundImg img={img16} heading={heading} text={text} scrollTo="form" />
+        <BackgroundImg img='/Images/img13.jpg' heading={heading} text={text} scrollTo="form" />
         <div id='form'>
             <ContactForm/>
         </div>

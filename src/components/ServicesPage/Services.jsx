@@ -1,5 +1,4 @@
 import BackgroundImg from "../BackgroundImg"
-import img18 from "../../Images/img18.jpg"
 import ContactSection from "../ContactSection"
 import TransportationServices from "./TransportationServices"
 import LastMileDelivery from "./LastMileDelivery"
@@ -21,7 +20,7 @@ const Services = () => {
 
   return (
     <div>
-      <BackgroundImg img={img18} heading={heading} text={text} scrollTo="warehouse"/>;
+      <BackgroundImg img="/Images/img18.jpg" heading={heading} text={text} scrollTo="warehouse"/>;
       <TransportationServices/>
       <LastMileDelivery/>
       <div id="warehouse">

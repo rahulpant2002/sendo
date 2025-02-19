@@ -1,5 +1,3 @@
-import img20 from "../../Images/img20.jpg"
-import flowChart from "../../Images/flowChart.svg"
 import Form from "../Form"
 import BackgroundImg from "../BackgroundImg"
 import ScrollToTopButton from "../ScrollToTopButton"
@@ -16,7 +14,7 @@ const Contact = () => {
 
   return (
     <div>
-        <BackgroundImg img={img20} heading={heading} text={text} scrollTo='form' />
+        <BackgroundImg img='/Images/img20.jpg' heading={heading} text={text} scrollTo='form' />
         <div id="form">
           <Form/>
         </div>

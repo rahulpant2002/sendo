@@ -1,4 +1,3 @@
-import img8 from "../../Images/img8.jpg"
 import BackgroundImg from "../BackgroundImg";
 import ContactSection from "../ContactSection";
 import Founders from "./Founders";
@@ -19,7 +18,7 @@ const About = () => {
 
   return (
     <div>
-        <BackgroundImg img={img8} heading={heading} text={text} scrollTo="industries"/>;
+        <BackgroundImg img="/Images/img8.jpg" heading={heading} text={text} scrollTo="industries"/>;
         <VisionMission/>
         <Founders/>
         <div id="industries">

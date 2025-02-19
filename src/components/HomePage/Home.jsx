@@ -1,5 +1,4 @@
 import BackgroundImg from "../BackgroundImg"
-import img21 from "../../Images/img21.jpeg"
 import ContactSection from "../ContactSection";
 import LogisticsSlider from "./LogisticSider";
 import ServicesSlider from "./ServiceSlider";
@@ -25,7 +24,7 @@ const Home = () => {
 
   return (
     <div>
-        <BackgroundImg img={img21} heading={heading} text={text} scrollTo="serviceSlider"/>
+        <BackgroundImg img='/Images/img21.jpeg' heading={heading} text={text} scrollTo="serviceSlider"/>
         <GetQuoteBtn/>
         {/* <ShipmentForm/> */}
 

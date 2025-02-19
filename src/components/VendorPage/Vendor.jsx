@@ -1,5 +1,4 @@
 import React from 'react'
-import img14 from "../../Images/img14.jpg"
 import BackgroundImg from '../BackgroundImg';
 import WhyPartner from './WhyPartners';
 import VendorPartnership from './VendorPartnership';
@@ -20,7 +19,7 @@ const Vendor = () => {
 
   return (
     <div>
-      <BackgroundImg img={img14} heading={heading} text={text} scrollTo="benefits" />
+      <BackgroundImg img='/Images/img14.jpg' heading={heading} text={text} scrollTo="benefits" />
       <WhyPartner/>
       <div id='benefits'>
         <Benefits/> 
