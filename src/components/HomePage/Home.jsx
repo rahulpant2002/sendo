@@ -24,7 +24,7 @@ const Home = () => {
 
   return (
     <div>
-        <BackgroundImg img='/Images/img22.jpg' heading={heading} text={text} scrollTo="serviceSlider"/>
+        <BackgroundImg img='/Images/img23.jpg' heading={heading} text={text} scrollTo="serviceSlider"/>
         <GetQuoteBtn/>
         {/* <ShipmentForm/> */}
 
