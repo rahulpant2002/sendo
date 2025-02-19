@@ -12,6 +12,12 @@ function App() {
 
   return (
     <div>
+      <Helmet>
+        <title>Sendo Logistics</title>
+        <meta name="description" content="Sendo Logistics offers fast, secure, and affordable logistics solutions." />
+        <meta name="keywords" content="logistics, shipping, delivery, fast shipping, sendo logistics" />
+      </Helmet>
+
       <BrowserRouter>
         <ScrollToTop/>
           <Routes>
