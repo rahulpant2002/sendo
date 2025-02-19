@@ -9,13 +9,9 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  server: {
-    historyApiFallback: true, // Ensures correct routing on refresh
+  build: {
+    outDir: 'dist',
   },
-  // resolve: {
-  //   alias: {
-  //     '@': path.resolve(__dirname, 'src'),
-  //   },
-  // },
+  base: '/',
 })
 
