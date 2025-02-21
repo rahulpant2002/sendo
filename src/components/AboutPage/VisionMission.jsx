@@ -20,7 +20,7 @@ const VisionMission = () => {
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{ backgroundImage: "url('https://source.unsplash.com/800x600/?logistics,transportation')" }}
         ></div>
-        <div className="flex flex-col items-center relative z-10">
+        <div className="flex flex-col items-center relative z-0">
           <span className="text-4xl mb-4">🎯</span>
           <h2 className="text-2xl font-semibold">Our Mission</h2>
           <p className="mt-4 text-sm">

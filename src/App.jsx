@@ -18,6 +18,8 @@ function App() {
         <meta name="description" content="Sendo Logistics offers fast, secure, and affordable logistics solutions." />
         <meta name="keywords" content="logistics, sendonow, sendo, shipping, delivery, fast shipping, sendo logistics" />
 
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
       
         <meta property="og:title" content="Sendo Logistics - Fast & Secure Logistics Solutions" />
         <meta property="og:description"
